@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4453353218183125552
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 334674774361132574}
+  - component: {fileID: 8639684374675710911}
+  m_Layer: 0
+  m_Name: SpawnManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334674774361132574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453353218183125552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 800.755, y: 210.26808, z: 6.7686415}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8639684374675710911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4453353218183125552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac36e29f53987844db0ba8e3825ca8b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enemyShipPrefab:
+  - {fileID: 8627049371477904916, guid: a11317fcdbc479346b74d33f288a1271, type: 3}
+  - {fileID: 6180398228914017847, guid: 43a896d698a0c444f9cf3d7f330b7346, type: 3}
+  - {fileID: 8056484661644022, guid: b49be712c09f5214284072cface8101a, type: 3}
+  - {fileID: 288370019027418013, guid: 7f672bddccde92f4e80c6b25a1dbadff, type: 3}
+  _spaceDeerPrefab: {fileID: 1203945277981798334, guid: f81c26f58f6dfef49bcf5ad7ce0e1974,
+    type: 3}
+  _newRoundClip: {fileID: 8300000, guid: a88f95669e5710245880b9d6998805d9, type: 3}

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 642f73d89581e6a4d81b4d3f0fef46df
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _playerPrefab: {fileID: 5183319545162750151, guid: b1231f1da7d7ae24a91ddec991ca8512,
+      type: 3}
+  - _coopPlayersPrefab: {instanceID: 0}
+  - _spawnManagerPrefab: {fileID: 4453353218183125552, guid: 3a5425332e2300c4188a351c799bde11,
+      type: 3}
+  - _pauseMenu: {fileID: 5847436879467109891, guid: ef29b275576a7454a9618a8e6d582342,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
